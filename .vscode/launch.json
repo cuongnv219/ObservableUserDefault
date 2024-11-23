@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ObservableUserDefault}",
+            "name": "Debug ObservableUserDefaultClient",
+            "program": "${workspaceFolder:ObservableUserDefault}/.build/debug/ObservableUserDefaultClient",
+            "preLaunchTask": "swift: Build Debug ObservableUserDefaultClient"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ObservableUserDefault}",
+            "name": "Release ObservableUserDefaultClient",
+            "program": "${workspaceFolder:ObservableUserDefault}/.build/release/ObservableUserDefaultClient",
+            "preLaunchTask": "swift: Build Release ObservableUserDefaultClient"
+        }
+    ]
+}
